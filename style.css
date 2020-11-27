@@ -2,170 +2,105 @@ body {
 	margin: 0;
 }
 
-
-
-
-
+/* шапка */
 .header_container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
-	background-image: url(big.jpg);
+	background-image: url(img/big.jpg);
 	background-size: cover;
 	font-family: 'Lobster', cursive;
 	color: #fff;
 }
 
-
-
-
-
-
-
 .header_text_large {
 	font-size: 100px;
 }
 
-
-
-
-
-
-
 .header_text_small {
 	font-size: 40px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
-
-
-
-
-
-
 
 .header_button_container {
 	display: flex;
 	justify-content: center;
-
 }
 
-
-
-
-
-
-
-.button_primery{
-	margin-right: 10px;
-	border: 5px solid #f00;
-	padding: 20px 30px;
+.header_button {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
+	border-radius: 5px;
+	top: 50px;
 }
 
-
-
-
-
-
-
-.button_primary:hover{
-	background-color: #990000;
-font-family: 'Roboto', sans-serif;
-padding: 20px 30px;
-font-size: 20px;
-color: #fff;
-text-decoration: none;
-border: 5px solid #000;
-border-radius: 25px;
+.button_primary {
+	background-color: #ff0000;
+	color: #fff;
+	margin-right: 10px;
+	border: 5px solid #ff0000;
 }
 
-
-
-
-.button_secondary{
-
+.button_secondary {
+	margin-left: 10px;
+	border: 5px solid #fff;
 }
-
-
-
-
-.button_fixed{
-	display:flex;
-	justify-content:center;
-	align-items: center;
-	position: fixed;
-	width:100px;
-	height: 100px;
-	border-radius: 50%;
-	background-color: #0f0;
-	bottom:20px;
-	right:20px;
-
-}
-
-
-
-
 
 .button_secondary:hover {
-	background-color: #990000;
-font-family: 'Roboto', sans-serif;
-padding: 20px 30px;
-font-size: 20px;
-color: #fff;
-text-decoration: none;
-border: 5px groove ;
-border-radius: 25px;
+	border: 5px dashed #fff;
 }
 
+/* меню */
+.menu_container {
+	background-color: #000;
+	padding: 20px;
+}
 
+.menu_container ul {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
 
+.menu_container a {
+	color: #fff;
+	text-decoration: none;
+}
 
-
+/* статьи */
 .text_container {
 	margin: 50px 10px;
 }
 
-
-
-
-
-
 .photo_container {
 	display: flex;
 	justify-content: space-around;
-
 }
-
-
-
-
-
 
 .photo_container img {
 	margin: 0 10px;
-	overflow-x: hidden;
 }
 
-
-
-
-
-
-.container_footer {
+/* подвал */
+.footer_container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
 	background-color: #000;
-	padding: 50px 0;
+	padding: 20px;
 }
 
+.social_item {
+	margin-left: 20px;
+}
 
-
-
-
-
-.container_footer a {
-	color: #fff;
+.social_item img {
+	height: 30px;
 }
