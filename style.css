@@ -104,3 +104,19 @@ body {
 .social_item img {
 	height: 30px;
 }
+
+/* Фоторама */
+
+.fotorama__wrap {
+	margin: 20px auto;
+}
+   data-width="100%"
+     data-ratio="800/600"
+     data-minwidth="400"
+     data-maxwidth="1000"
+     data-minheight="300"
+     data-maxheight="100%"
+     data-allowfullscreen="true">
+     data-autoplay="true">
+     data-autoplay="3000"
+data-keyboard='{"space": true, "home": true, "end": true, "up": true, "down": true}
