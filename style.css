@@ -8,8 +8,11 @@ body {
 	align-items: center;
 	background-color: #2e323f;
 	color: #e0e0e2;
-	padding: 2rem;
-	text-decoration: none;
+	padding: 0 2rem;
+	font-family: 'Oswald', sans-serif;
+    font-size: 18px ;
+    text-transform: uppercase;
+    justify-content: space-between;
 }
 
 .logo {
@@ -31,12 +34,23 @@ body {
 .menu_item {
 	color: #e0e0e2;
  text-decoration: none;
-font-family: 'Oswald', sans-serif;
-
 }
 
 .counded {
  background-color: gold;
+  }
+
+.rounded {
+	background-color: #a59678;
+	border-radius: 100px;
+	padding: 10px;
+}
+
+.logo {
+ 	flex-grow: 1;
+ 	flex-basis: 0;
+ 	font-family: 'Oswald', sans-serif;
+ }
  
 
 
